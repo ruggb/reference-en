@@ -69,7 +69,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-The analog input pins can be used as digital pins, referred to as A0, A1, etc.
+The analog input pins A0-A5 can be configured with pinmode() as digital I/O pins. For the Arduino Nano, Pro Mini, and Mini’s A6 and A7 pins can only be used as analog inputs.
 
 --
 // HOW TO USE SECTION ENDS
